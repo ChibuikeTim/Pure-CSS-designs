@@ -1,0 +1,62 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Kumbh Sans", sans-serif;
+	background-color: #19A1AD;
+}
+
+
+
+#container {
+	height: 380px;
+	width: 350px;
+	margin: 50px auto;
+	border-radius: 20px;
+	background-color: white;
+	overflow: hidden;
+}
+
+img {
+	position: relative;
+	border-radius: 50%;
+	border: 5px solid white;
+	left: 120px;
+	top: -50px;
+}
+
+div#vic {
+	position: relative;
+	top: -30px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+div#fc {
+	text-align: center;
+	margin-top: -20px; 
+	padding: 10px;
+	border-top: 1px solid lightgrey;
+}
+
+div.followers {
+	display: inline-block;
+	font-weight: bolder;
+	font-size: 18px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 10px; 
+}
+
+.light {
+	color: lightgrey;
+	font-weight: normal;
+	font-size: 14px;
+	margin-top: 5px;
+	text-align: center;
+}
+
+
+
